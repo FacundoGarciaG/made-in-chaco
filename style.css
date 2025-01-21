@@ -216,6 +216,7 @@ section {
   .hero-text {
     text-align: center;
     padding-top: 100px;
+    margin-left: 0;
   }
 
   .navlist {
