@@ -29,10 +29,7 @@
       <!-- LOGO  -->
       <a href="#" class="logo">MADE IN CHACO</a>
 
-      <input type="checkbox" name="checkbox" id="menu-toggle" />
-      <label for="menu-toggle" class="menu-icon-action">
-        <div class="bx bx-menu" id="menu-icon"></div
-      ></label>
+      <div class="bx bx-menu" id="menu-icon"></div>
 
       <ul class="navlist">
         <li><a href="#">Home</a></li>
@@ -46,13 +43,17 @@
 
     <section class="hero">
       <div class="hero-text">
-        <h5>Chaco, su gente y su tierra: Cultura, Tradición y Creatividad</h5>
-        <h1>MADE IN CHACO</h1>
-        <p>
+        <h5 class="comment">
+          Chaco, su gente y su tierra: Cultura, Tradición y Creatividad
+        </h5>
+        <h1 class="title">MADE IN CHACO</h1>
+        <p class="comment">
           Explora las historias, sonidos y colores que hacen único al secreto de
           Argentina
         </p>
-        <a href="#">Descubre más</a>
+        <div class="more">
+          <a href="#" class="more">Descubre más</a>
+        </div>
       </div>
       <video autoplay muted loop>
         <source src="assets/video/231933_small.mp4" />
@@ -67,5 +68,8 @@
     <div class="scroll-down">
       <a href="#"><i class="ri-arrow-down-wide-line"></i></a>
     </div>
+    <!-- script de scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
   </body>
 </html>
